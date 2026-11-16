@@ -20,7 +20,24 @@ $produits = $pdo->query("SELECT * FROM produits WHERE nom LIKE '%{$q}%'");
 </head>
 <style>
     table, th, td {
-        border: 1px solid black;
+        border: 1px solid gray;
+        border-collapse: collapse;
+        padding:5px;
+        
+    }
+
+    input{
+        border-radius:5px;
+        outline:.5px solid gray;
+        border:none;
+        padding:10px;
+        margin-right: 10px;
+        margin-top: 3px;
+    }
+
+    table{
+        border-radius:5px;
+        margin-top:10px;
     }
     </style>
 <body>

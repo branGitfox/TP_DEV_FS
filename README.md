@@ -62,4 +62,15 @@ Le projet est composé de 5 fichiers PHP à la racine :
 - **Modification (Update) :** Chargement des données existantes avec `fetch()`, puis mise à jour avec `UPDATE produits SET nom = ? WHERE id = ?`.
 - **Suppression (Delete) :** Suppression ciblée avec `DELETE FROM produits WHERE id = ?`.
 
+### affichage
+<img src="./affichage.png">
+
+### ajout
+<img src="./ajout.png">
+
+### modification
+<img src="./modification.png">
+
+### recherche
+<img src="./recherche.png">
 

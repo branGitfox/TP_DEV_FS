@@ -29,7 +29,7 @@ if(isset($_POST['produit']) && !empty($_POST['produit'])) {
     <form action="" method="POST">
         <label for="produit">Produit</label>
         <input type="text" id="produit" name="produit" value="<?=$nom['nom'] ?>">
-        <button type="submit">Ajouter</button>
+        <button type="submit">Modifier</button>
     </form>
 </body>
 </html>
